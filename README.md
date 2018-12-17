@@ -13,9 +13,9 @@ The microservice registration center is implemented by the go programming langua
 2. Each microservice pod must have the following three labels。
 
     ```
-    choerodon.io/service        (Microservice name)
-    choerodon.io/version        (version)
-    choerodon.io/metrics-port   (metrics-port)
+    xxxx.cn/service        (Microservice name)
+    xxxx.cn/version        (version)
+    xxxx.cn/metrics-port   (metrics-port)
     ```
   If your service has contextPath, you can specify by `choerodon.io/context-path`
 
@@ -35,10 +35,4 @@ go run main.go \
 
 * [Change Log](./CHANGELOG.zh-CN.md)
 
-## Contribute
 
-We welcome your input! If you have feedback, please [submit an issue](https://github.com/choerodon/choerodon/issues). If you'd like to participate in development, please read the [documentation of contribution](https://github.com/choerodon/choerodon/blob/master/CONTRIBUTING.md) and submit a pull request.
-
-## Support
-
-If you have any questions and need our support, [reach out to us one way or another](http://choerodon.io/zh/community/).
